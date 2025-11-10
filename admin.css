@@ -1,176 +1,230 @@
 /* admin/assets/admin.css */
 
-.ura-admin {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+/* עיצוב כללי - RTL */
+.ca-admin-wrap {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: right;
+    direction: rtl;
 }
 
-.ura-dashboard-widgets {
+/* Tabs */
+.ca-admin-tabs {
+    display: flex;
+    border-bottom: 2px solid #ccd0d4;
+    margin-bottom: 20px;
+    background: #f8f9fa;
+    border-radius: 4px 4px 0 0;
+}
+
+.ca-tab-button {
+    background: none;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    font-size: 14px;
+    color: #555;
+}
+
+.ca-tab-button.active {
+    border-bottom-color: #0073aa;
+    color: #0073aa;
+    background: white;
+    font-weight: 600;
+}
+
+.ca-tab-content {
+    display: none;
+}
+
+.ca-tab-content.active {
+    display: block;
+}
+
+/* Sub Tabs */
+.ca-sub-tabs {
+    display: flex;
+    background: #f1f1f1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.ca-sub-tab-button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #666;
+}
+
+.ca-sub-tab-button.active {
+    background: white;
+    color: #0073aa;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Cards */
+.ca-card {
+    background: white;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+/* Stats Grid */
+.ca-stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin: 20px 0;
 }
 
-.ura-widget {
-    background: #fff;
-    border: 1px solid #ccd0d4;
+.ca-stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px 20px;
     border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.ura-stats {
-    display: flex;
-    justify-content: space-around;
     text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.stat-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.stat-number {
+.ca-stat-card .stat-number {
     font-size: 2.5em;
     font-weight: bold;
-    color: #2271b1;
+    margin-bottom: 10px;
 }
 
-.stat-label {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 5px;
+.ca-stat-card .stat-label {
+    font-size: 1.1em;
+    opacity: 0.9;
 }
 
-.quick-actions {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-/* טבלאות */
-.ura-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-.ura-table th,
-.ura-table td {
-    padding: 12px;
-    text-align: right;
-    border-bottom: 1px solid #e1e1e1;
-}
-
-.ura-table th {
-    background: #f8f9fa;
-    font-weight: 600;
-}
-
-/* טאבים */
-.ura-tabs {
-    border-bottom: 1px solid #ccd0d4;
+/* Forms */
+.ca-form-group {
     margin-bottom: 20px;
 }
 
-.ura-tab {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #f1f1f1;
-    border: 1px solid #ccd0d4;
-    border-bottom: none;
-    margin-left: 5px;
-    border-radius: 4px 4px 0 0;
-    text-decoration: none;
-    color: #2271b1;
-}
-
-.ura-tab.active {
-    background: #fff;
-    color: #000;
-}
-
-/* פורמים */
-.ura-form {
-    background: #fff;
-    padding: 20px;
-    border: 1px solid #ccd0d4;
-    border-radius: 8px;
-}
-
-.ura-form-group {
-    margin-bottom: 20px;
-}
-
-.ura-form-label {
+.ca-form-label {
     display: block;
     margin-bottom: 5px;
     font-weight: 600;
+    color: #23282d;
 }
 
-.ura-form-input {
+.ca-form-input {
     width: 100%;
     padding: 8px 12px;
-    border: 1px solid #8c8f94;
-    border-radius: 4px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
     font-size: 14px;
+    direction: rtl;
 }
 
-.ura-form-textarea {
-    width: 100%;
-    min-height: 200px;
-    padding: 12px;
-    border: 1px solid #8c8f94;
-    border-radius: 4px;
-    font-family: monospace;
-    font-size: 14px;
+.ca-form-textarea {
+    min-height: 120px;
+    resize: vertical;
+    direction: rtl;
 }
 
-/* כפתורים */
-.ura-btn {
-    padding: 10px 20px;
+/* Buttons */
+.ca-button {
+    background: #0073aa;
+    color: #fff;
     border: none;
-    border-radius: 4px;
+    padding: 10px 16px;
+    border-radius: 3px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
 }
 
-.ura-btn-primary {
-    background: #2271b1;
+.ca-button:hover {
+    background: #005a87;
     color: #fff;
 }
 
-.ura-btn-success {
-    background: #00a32a;
-    color: #fff;
+.ca-button-success {
+    background: #46b450;
 }
 
-.ura-btn-danger {
-    background: #d63638;
-    color: #fff;
+.ca-button-success:hover {
+    background: #3a9541;
 }
 
-/* חיוויים */
-.ura-status-new { background: #e7f3ff; color: #2271b1; }
-.ura-status-processing { background: #fff3cd; color: #856404; }
-.ura-status-completed { background: #d4edda; color: #155724; }
-.ura-status-cancelled { background: #f8d7da; color: #721c24; }
+/* Checkbox & Radio Groups */
+.ca-checkbox-group,
+.ca-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
 
-/* רספונסיביות */
+.ca-checkbox-group label,
+.ca-radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* Payment Methods */
+.ca-payment-method {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+}
+
+.ca-payment-method label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-    .ura-dashboard-widgets {
+    .ca-admin-tabs {
+        flex-direction: column;
+    }
+    
+    .ca-tab-button {
+        text-align: right;
+        border-bottom: 1px solid #ddd;
+        border-left: 3px solid transparent;
+    }
+    
+    .ca-tab-button.active {
+        border-left-color: #0073aa;
+        border-bottom-color: #ddd;
+    }
+    
+    .ca-stats-grid {
         grid-template-columns: 1fr;
     }
-    
-    .ura-stats {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .quick-actions {
-        flex-direction: column;
-    }
+}
+
+/* Spinner */
+.ca-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: caSpin 1s linear infinite;
+}
+
+@keyframes caSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

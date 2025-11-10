@@ -1,0 +1,603 @@
+# Copyright (C) 2024 Urban Renewal Analyzer
+# This file is distributed under the same license as the Urban Renewal Analyzer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Urban Renewal Analyzer 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-20 12:00+0000\n"
+"PO-Revision-Date: 2024-01-20 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/admin.php
+msgid "Urban Renewal Analyzer"
+msgstr "מנתח הסכמי התחדשות עירונית"
+
+#: admin/admin.php
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+#: admin/admin.php
+msgid "Orders"
+msgstr "הזמנות"
+
+#: admin/admin.php
+msgid "Pending Treatment"
+msgstr "ממתינים לטיפול"
+
+#: admin/admin.php
+msgid "Customers"
+msgstr "לקוחות"
+
+#: admin/admin.php
+msgid "Quick Actions"
+msgstr "פעולות מהירות"
+
+#: admin/orders.php
+msgid "Order Management"
+msgstr "ניהול הזמנות"
+
+#: admin/orders.php
+msgid "Export Orders"
+msgstr "ייצוא הזמנות"
+
+#: admin/orders.php
+msgid "Refresh"
+msgstr "רענן"
+
+#: admin/orders.php
+msgid "Search by order number, name, phone..."
+msgstr "חיפוש לפי מס' הזמנה, שם, טלפון..."
+
+#: admin/orders.php
+msgid "Search"
+msgstr "חפש"
+
+#: admin/orders.php
+msgid "All Statuses"
+msgstr "כל הסטטוסים"
+
+#: admin/orders.php
+msgid "New"
+msgstr "חדש"
+
+#: admin/orders.php
+msgid "Processing"
+msgstr "בטיפול"
+
+#: admin/orders.php
+msgid "Paid"
+msgstr "שולם"
+
+#: admin/orders.php
+msgid "Completed"
+msgstr "הושלם"
+
+#: admin/orders.php
+msgid "Cancelled"
+msgstr "בוטל"
+
+#: admin/orders.php
+msgid "All Services"
+msgstr "כל השירותים"
+
+#: admin/orders.php
+msgid "From Date"
+msgstr "מתאריך"
+
+#: admin/orders.php
+msgid "To Date"
+msgstr "עד תאריך"
+
+#: admin/orders.php
+msgid "Apply Filters"
+msgstr "החל סינונים"
+
+#: admin/orders.php
+msgid "Clear"
+msgstr "נקה"
+
+#: admin/orders.php
+msgid "Order Number"
+msgstr "מספר הזמנה"
+
+#: admin/orders.php
+msgid "Customer"
+msgstr "לקוח"
+
+#: admin/orders.php
+msgid "Service"
+msgstr "שירות"
+
+#: admin/orders.php
+msgid "Price"
+msgstr "מחיר"
+
+#: admin/orders.php
+msgid "Status"
+msgstr "סטטוס"
+
+#: admin/orders.php
+msgid "Payment"
+msgstr "תשלום"
+
+#: admin/orders.php
+msgid "Downloads"
+msgstr "הורדות"
+
+#: admin/orders.php
+msgid "Date"
+msgstr "תאריך"
+
+#: admin/orders.php
+msgid "Actions"
+msgstr "פעולות"
+
+#: admin/orders.php
+msgid "View"
+msgstr "צפה"
+
+#: admin/orders.php
+msgid "Email"
+msgstr "אימייל"
+
+#: admin/orders.php
+msgid "Delete"
+msgstr "מחק"
+
+#: admin/services.php
+msgid "Service Management"
+msgstr "ניהול שירותים"
+
+#: admin/services.php
+msgid "Services List"
+msgstr "רשימת שירותים"
+
+#: admin/services.php
+msgid "Add Service"
+msgstr "הוספת שירות"
+
+#: admin/services.php
+msgid "Display Settings"
+msgstr "הגדרות תצוגה"
+
+#: admin/services.php
+msgid "Order"
+msgstr "סדר"
+
+#: admin/services.php
+msgid "Service Name"
+msgstr "שם שירות"
+
+#: admin/services.php
+msgid "Active"
+msgstr "פעיל"
+
+#: admin/services.php
+msgid "Inactive"
+msgstr "לא פעיל"
+
+#: admin/services.php
+msgid "Edit"
+msgstr "עריכה"
+
+#: admin/services.php
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: admin/services.php
+msgid "Service Name *"
+msgstr "שם השירות *"
+
+#: admin/services.php
+msgid "Price (₪) *"
+msgstr "מחיר (₪) *"
+
+#: admin/services.php
+msgid "Service Description"
+msgstr "תיאור השירות"
+
+#: admin/services.php
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: admin/services.php
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+#: admin/services.php
+msgid "Display Order"
+msgstr "סדר תצוגה"
+
+#: admin/services.php
+msgid "Additional Settings"
+msgstr "הגדרות נוספות"
+
+#: admin/services.php
+msgid "Service Active"
+msgstr "שירות פעיל"
+
+#: admin/services.php
+msgid "Requires File Upload"
+msgstr "דורש העלאת קבצים"
+
+#: admin/services.php
+msgid "Show in Registration Interface"
+msgstr "הצג בממשק הרשמה"
+
+#: admin/services.php
+msgid "Save Service"
+msgstr "שמור שירות"
+
+#: admin/services.php
+msgid "Cancel"
+msgstr "ביטול"
+
+#: admin/services.php
+msgid "Shortcode for Displaying Services"
+msgstr "Shortcode להצגת שירותים"
+
+#: admin/services.php
+msgid "Use this shortcode to display the services list on your site"
+msgstr "השתמש ב-shortcode זה כדי להציג את רשימת השירותים באתר"
+
+#: admin/services.php
+msgid "Display Style"
+msgstr "סגנון תצוגה"
+
+#: admin/services.php
+msgid "Grid View"
+msgstr "תצוגת רשת"
+
+#: admin/services.php
+msgid "List View"
+msgstr "תצוגת רשימה"
+
+#: admin/services.php
+msgid "Cards View"
+msgstr "תצוגת כרטיסים"
+
+#: admin/services.php
+msgid "Advanced Settings"
+msgstr "הגדרות מתקדמות"
+
+#: admin/services.php
+msgid "Show Prices"
+msgstr "הצג מחירים"
+
+#: admin/services.php
+msgid "Allow Multiple Selection"
+msgstr "אפשר בחירת מספר שירותים"
+
+#: admin/services.php
+msgid "Show Additional Details"
+msgstr "הצג פרטים נוספים"
+
+#: admin/services.php
+msgid "Save Settings"
+msgstr "שמור הגדרות"
+
+#: public/registration.php
+msgid "Registration with SMS Verification"
+msgstr "הרשמה עם אימות SMS"
+
+#: public/registration.php
+msgid "Mobile Number"
+msgstr "מספר טלפון נייד"
+
+#: public/registration.php
+msgid "Send Verification Code"
+msgstr "שלח קוד אימות"
+
+#: public/registration.php
+msgid "SMS Code Verification"
+msgstr "אימות קוד SMS"
+
+#: public/registration.php
+msgid "Verification code sent to"
+msgstr "קוד אימות נשלח ל"
+
+#: public/registration.php
+msgid "Verify Code"
+msgstr "אמת קוד"
+
+#: public/registration.php
+msgid "You can resend code in:"
+msgstr "ניתן לשלוח קוד חדש בעוד:"
+
+#: public/registration.php
+msgid "seconds"
+msgstr "שניות"
+
+#: public/registration.php
+msgid "Resend SMS Code"
+msgstr "שלח קוד מחדש"
+
+#: public/registration.php
+msgid "Personal Details"
+msgstr "פרטים אישיים"
+
+#: public/registration.php
+msgid "First Name"
+msgstr "שם פרטי"
+
+#: public/registration.php
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#: public/registration.php
+msgid "Email"
+msgstr "אימייל"
+
+#: public/registration.php
+msgid "Continue to Service Selection"
+msgstr "המשך לבחירת שירותים"
+
+#: public/registration.php
+msgid "Service Selection"
+msgstr "בחירת שירותים"
+
+#: public/registration.php
+msgid "Total:"
+msgstr "סה\"כ:"
+
+#: public/registration.php
+msgid "₪"
+msgstr "₪"
+
+#: public/registration.php
+msgid "Continue to Address Details"
+msgstr "המשך לפרטי כתובת"
+
+#: public/registration.php
+msgid "Address Details"
+msgstr "פרטי כתובת"
+
+#: public/registration.php
+msgid "Street"
+msgstr "רחוב"
+
+#: public/registration.php
+msgid "Building Number"
+msgstr "מספר בניין"
+
+#: public/registration.php
+msgid "Apartment Number"
+msgstr "מספר דירה"
+
+#: public/registration.php
+msgid "Zipcode"
+msgstr "מיקוד"
+
+#: public/registration.php
+msgid "Don't know your zipcode?"
+msgstr "אינך יודע מה המיקוד?"
+
+#: public/registration.php
+msgid "Complete Registration"
+msgstr "סיום הרשמה"
+
+#: public/registration.php
+msgid "Registration Completed Successfully!"
+msgstr "ההרשמה הושלמה בהצלחה!"
+
+#: public/registration.php
+msgid "Order Number:"
+msgstr "מספר ההזמנה:"
+
+#: public/registration.php
+msgid "A link to manage your order has been sent to your phone and email."
+msgstr "קישור לניהול ההזמנה נשלח לנייד ולאימייל שלך."
+
+#: public/registration.php
+msgid "Go to My Account"
+msgstr "לכניסה לחשבון"
+
+#: public/registration.php
+msgid "Zipcode Lookup by Address"
+msgstr "איתור מיקוד לפי כתובת"
+
+#: public/registration.php
+msgid "City"
+msgstr "עיר"
+
+#: public/registration.php
+msgid "Search Zipcode"
+msgstr "חפש מיקוד"
+
+#: public/registration.php
+msgid "Found: Zipcode {zipcode} for {address}"
+msgstr "נמצא: מיקוד {zipcode} עבור {address}"
+
+#: public/registration.php
+msgid "Use This Zipcode"
+msgstr "השתמש במיקוד זה"
+
+#: public/file-upload.php
+msgid "File Upload"
+msgstr "העלאת קבצים"
+
+#: public/file-upload.php
+msgid "Login Required"
+msgstr "נדרשת התחברות"
+
+#: public/file-upload.php
+msgid "You need to login to upload files."
+msgstr "עליך להתחבר כדי להעלות קבצים."
+
+#: public/file-upload.php
+msgid "Login to Your Account"
+msgstr "התחבר לחשבון"
+
+#: public/file-upload.php
+msgid "Error"
+msgstr "שגיאה"
+
+#: public/file-upload.php
+msgid "Invalid order number"
+msgstr "מספר הזמנה לא תקין"
+
+#: public/file-upload.php
+msgid "You don't have access to this order"
+msgstr "אין לך גישה להזמנה זו"
+
+#: public/file-upload.php
+msgid "Back to Dashboard"
+msgstr "חזור ללוח הבקרה"
+
+#: public/file-upload.php
+msgid "Uploading Files"
+msgstr "העלאת קבצים"
+
+#: public/file-upload.php
+msgid "Order:"
+msgstr "הזמנה:"
+
+#: public/file-upload.php
+msgid "Service:"
+msgstr "שירות:"
+
+#: public/file-upload.php
+msgid "Customer:"
+msgstr "לקוח:"
+
+#: public/file-upload.php
+msgid "File Upload Terms of Use"
+msgstr "תנאי השימוש בהעלאת קבצים"
+
+#: public/file-upload.php
+msgid "Before uploading, please read and accept the following terms:"
+msgstr "לפני ההעלאה, אנא קרא ואשר את התנאים הבאים:"
+
+#: public/file-upload.php
+msgid "Files will be stored securely and privately"
+msgstr "הקבצים יישמרו באופן מאובטח ופרטי"
+
+#: public/file-upload.php
+msgid "Virus scanning will be performed before saving"
+msgstr "נעשה שימוש בסריקת וירוסים לפני השמירה"
+
+#: public/file-upload.php
+msgid "Files cannot be deleted after upload"
+msgstr "לא ניתן למחוק קבצים לאחר ההעלאה"
+
+#: public/file-upload.php
+msgid "Only PDF, DOC, DOCX files allowed"
+msgstr "רק קבצי PDF, DOC, DOCX מותרים"
+
+#: public/file-upload.php
+msgid "Maximum file size: 50MB"
+msgstr "גודל קובץ מקסימלי: 50MB"
+
+#: public/file-upload.php
+msgid "Maximum 5 files for upload"
+msgstr "מקסימום 5 קבצים להעלאה"
+
+#: public/file-upload.php
+msgid "I have read and agree to the above terms"
+msgstr "קראתי ואני מסכים/מה לתנאים שלעיל"
+
+#: public/file-upload.php
+msgid "Drag files here or"
+msgstr "גרור קבצים לכאן או"
+
+#: public/file-upload.php
+msgid "Select files from computer"
+msgstr "בחר קבצים מהמחשב"
+
+#: public/file-upload.php
+msgid "Allowed files: PDF, DOC, DOCX | Maximum 50MB per file"
+msgstr "קבצים מותרים: PDF, DOC, DOCX | מקסימום 50MB לקובץ"
+
+#: public/file-upload.php
+msgid "Selected Files:"
+msgstr "קבצים נבחרים:"
+
+#: public/file-upload.php
+msgid "Start Upload"
+msgstr "התחל העלאה"
+
+#: public/file-upload.php
+msgid "Cancel Selection"
+msgstr "בטל בחירה"
+
+#: public/file-upload.php
+msgid "Previously Uploaded Files:"
+msgstr "קבצים שהועלו כבר:"
+
+#: public/file-upload.php
+msgid "Uploaded"
+msgstr "הועלה"
+
+#: public/file-upload.php
+msgid "Scanning"
+msgstr "בסריקה"
+
+#: public/file-upload.php
+msgid "Approved"
+msgstr "אושר"
+
+#: public/file-upload.php
+msgid "Rejected"
+msgstr "נדחה"
+
+#: public/file-upload.php
+msgid "Important Instructions:"
+msgstr "הוראות חשובות:"
+
+#: public/file-upload.php
+msgid "Select all files you want to upload at once"
+msgstr "בחר את כל הקבצים שברצונך להעלות בבת אחת"
+
+#: public/file-upload.php
+msgid "Upload is performed securely to Amazon servers"
+msgstr "ההעלאה מתבצעת באופן מאובטח לשרתים של אמזון"
+
+#: public/file-upload.php
+msgid "After upload, files will be automatically scanned for viruses"
+msgstr "לאחר ההעלאה, הקבצים יסרקו לוירוסים אוטומטית"
+
+#: public/file-upload.php
+msgid "You will be notified when analysis begins"
+msgstr "תקבל הודעה כאשר הניתוח יתחיל"
+
+#: public/file-upload.php
+msgid "You can track status in your dashboard"
+msgstr "ניתן לעקוב אחרי הסטטוס בלוח הבקרה שלך"
+
+#: public/file-upload.php
+msgid "Upload in progress..."
+msgstr "מתבצעת העלאה..."
+
+#: public/file-upload.php
+msgid "Upload completed successfully!"
+msgstr "ההעלאה הושלמה בהצלחה!"
+
+#: public/file-upload.php
+msgid "Files uploaded and stored securely."
+msgstr "הקבצים הועלו ונשמרו באופן מאובטח."
+
+#: public/file-upload.php
+msgid "Back to Dashboard"
+msgstr "חזור ללוח הבקרה"
+
+#: public/file-upload.php
+msgid "Upload More Files"
+msgstr "העלה קבצים נוספים"
+
+#: includes/class-security.php
+msgid "Suspicious code pattern detected"
+msgstr "זוהה דפוס קוד חשוד"
+
+#: includes/class-email-manager.php
+msgid "Welcome to {site_name}!"
+msgstr "ברוך הבא ל{site_name}!"
+
+#: includes/class-sms-manager.php
+msgid "Verification code: {code} - Valid for 10 minutes"
+msgstr "קוד אימות: {code} - תוקף 10 דקות"
